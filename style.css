@@ -1,0 +1,117 @@
+body {
+  background-color: #e0e0e0;
+}
+
+.titol1 {
+  font-size: 38px;
+  text-align: center;
+}
+
+.imgportada {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333333;
+  text-align: center;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav ul li:hover {
+  background: #eca023;
+}
+
+.listaviñetas {
+  list-style-type: disc;
+  font-size: 25px;
+  line-height: 1.5;
+  padding-left: 40px;
+}
+
+.CarPri {
+  font-size: 30px;
+}
+
+.final {
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  padding: 2px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.quisom {
+  text-align: center;
+  font-size: 28px;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.izquierda {
+  float: left;
+  margin-right: 50px;
+}
+
+.derecha {
+  float: right;
+  margin-left: 50px;
+}
+
+.listaviñetasi {
+  list-style-type: disc;
+  font-size: 25px;
+  line-height: 1.5;
+  padding-left: 40px;
+  float: left;
+  margin-right: 50px;
+}
+
+.listaviñetasd {
+  list-style-type: disc;
+  font-size: 25px;
+  line-height: 1.5;
+  padding-left: 40px;
+  float: right;
+  margin-left: 50px;
+}
+.centro {
+  margin-left: 470px;
+  width: 1000px;
+  text-align: center;
+}
